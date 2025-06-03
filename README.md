@@ -45,10 +45,10 @@ Each method was evaluated with different bin counts. Sample visualizations:
 
 | Bins | Precision-Recall Curve |
 |------|------------------------|
-| 256  | ![256 bins](images/figure1.png) |
-| 128  | ![128 bins](images/figure2.png) |
-| 64   | ![64 bins](images/figure3.png) |
-| 32   | ![32 bins](images/figure4.png) |
+| 256  | ![256 bins](figure1.png) |
+| 128  | ![128 bins](figure2.png) |
+| 64   | ![64 bins](figure3.png) |
+| 32   | ![32 bins](figure4.png) |
 
 ### Performance Summary
 

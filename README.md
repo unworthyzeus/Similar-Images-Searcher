@@ -79,19 +79,9 @@ Each method was evaluated with different bin counts. Sample visualizations:
 - `precision_recall.m` — evaluation script
 - `rgb2hmmd.m` — RGB to HMMD conversion
 - `quantizeHMMD.m` — quantization logic
-
+- you can also generate a random input.txt based on the generate_input_file.m
 ### System Requirements
 - MATLAB
 - Image database: UKBench (`ukbench%05d.jpg`)
 - Input: `input.txt` file with query image names
 
-## 🚀 Running the System
-
-```matlab
-% Example parameters
-ImDB_path = 'path/to/UKentuckyDatabase/';
-hist_bins = 256;
-metodos_similitud = {'chi2', 'jensen-shannon', 'bhattacharyya', 'hellinger', 'kl-divergence'};
-
-% Run main script
-Main.m
